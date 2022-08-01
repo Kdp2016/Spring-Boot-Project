@@ -1,5 +1,6 @@
 package com.kalon.springbootshowcase.entity;
 
+import lombok.Builder;
 import org.hibernate.validator.constraints.Length;
 
 import javax.persistence.Entity;
@@ -9,6 +10,7 @@ import javax.persistence.Id;
 import javax.validation.constraints.NotBlank;
 
 @Entity
+@Builder
 public class Department {
 
     @Id
