@@ -1,0 +1,10 @@
+server:
+  port: 5000
+  servlet:
+    context-path: /bootdb
+
+spring:
+  application:
+    name: boot
+  profiles:
+    default: local
